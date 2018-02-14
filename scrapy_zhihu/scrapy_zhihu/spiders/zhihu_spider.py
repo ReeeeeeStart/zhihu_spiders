@@ -17,13 +17,13 @@ class ZhihuSpiderSpider(scrapy.Spider):   #zhihu_spider是ZhihuSpiderSpider类�
         } 
 #登录用的cookis
     cookies = {
-      "_xsrf" : "204e9e85-ee81-4105-9531-b25dabd36351",
-      "_zap" : "18e5599a-4e8a-44b8-83a7-13ca6a30133e",
-      "aliyungf_tc" : "AQAAAIxDfh/mFw0ABWV8bi+nZCM6qH5i",
-      "capsion_ticket" : '"2|1:0|10:1518403781|14:capsion_ticket|44:NWFlNDBjOTE0ZjVlNGNmMWFkYmU2ZjQ3MjAwYjU2YjQ=|81675f0aacafddf8311e1929e9cd5dd539ca0dcb6303fb529b91ac92e4829546"',
-      "d_c0" : '"AIArj3sOIg2PTrI8uwZzbyQsAgtvkLKxkBw=|1518403797"',
-      "q_c1" : "8a49a7dc25664e6ea76fe6c575ef21af|1518403779000|1518403779000",
-      "z_c0" : '"2|1:0|10:1518403797|4:z_c0|80:MS4xZXg5dEFBQUFBQUFtQUFBQVlBSlZUZFZPYmxzQlFwT1lLNkhkSVg3dWN6VnV0THpuWUVqcmd3PT0=|b7ea7ecfcb3a3d94d3cbf51d33938be2778a9d3b5d5aa0857aea6dd400377efa"',
+      "_xsrf" : "你的cookies",
+      "_zap" : "你的cookies",
+      "aliyungf_tc" : "你的cookies",
+      "capsion_ticket" : '你的cookies',
+      "d_c0" : '你的cookies',
+      "q_c1" : "你的cookies",
+      "z_c0" : '你的cookies',
         }
 #初始化登录后的首页的request
     def start_requests(self):
