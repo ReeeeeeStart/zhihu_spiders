@@ -1,5 +1,10 @@
-# zhihu_spiders
-power by：
-1：Scrapy (1.5.0)
-2：beautifulsoup4 (4.6.0)
+Scrapy 爬取知乎首页问题及相应问题的首页回答
+============================================
+Power by
+----------
+>>1:Python 3.6.3<br>
+>>2:beautifulsoup4 (4.6.0)<br>
+>>3:Scrapy (1.5.0)<br>
 
+如何使用
+--------
