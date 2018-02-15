@@ -52,5 +52,6 @@ Request URL:https://www.zhihu.com/api/v4/questions/19616066/answers?include=data
 之后，用json.loads 解析返回的json数据。
 [‘data’][‘excerp’]是回答的前面一部分的摘要，把[data]字典打印（用pprint（））出来后发现：
 >>content里面包含了全部的回答，但是里面包含了标签信息，所以不能直接以[‘data’][‘content’]的值作文为回答的全部内容，用get_text方法的话，回答的换行又处理不来，后来尝试用正则表达式想去删除里面的标签信息，试了好久后发现太难去除了。。。最后回到了用BeautiSoup库来解析content的字符串（有标签可以看成html）用soup.get_text('\n','</p\>')方法成功解决了换行问题。
+
 最后输出到txt文件的效果：
 ![](https://wx2.sinaimg.cn/large/005vjaOdgy1foh7qjp0hhj30v20u043f.jpg)
